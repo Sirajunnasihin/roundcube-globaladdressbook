@@ -1,0 +1,46 @@
+{
+  "name": "ak-group/globaladdressbook",
+  "description": "Adds global address books to Roundcube",
+  "keywords": [
+    "global",
+    "address",
+    "book",
+    "shared",
+    "contacts"
+  ],
+  "homepage": "https://github.com/sirajunnasihin/roundcube-globaladdressbook/",
+  "license": "GPL-3.0-or-later",
+  "type": "roundcube-plugin",
+  "version": "3.1",
+  "authors": [
+    {
+      "name": "Philip Weir",
+      "email": "roundcube@tehinterweb.co.uk",
+      "role": "Developer"
+    },
+    {
+      "name": "AK Group",
+      "email": "info@ak-group.biz.id",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "roundcube/plugin-installer": "~0.3.1"
+  },
+  "autoload": {
+    "classmap": [
+      "globaladdressbook.php"
+    ]
+  },
+  "extra": {
+    "roundcube": {
+      "min-version": "1.5"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "roundcube/plugin-installer": true
+    }
+  }
+}
